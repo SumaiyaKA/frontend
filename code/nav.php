@@ -11,14 +11,20 @@
   <!-- navigation -->
   <header>
     <nav>
-      <ul>
-        <li><a href="index.php">HarbourSpace</a></li>
+    <div class="menu">
+    <button class="menu-btn">Dropdown</button>
+    <div class="menu-content">
+        <a href="index.php">Home</a>
+    </div>
+    </div>
+      <!-- <ul>
+        <li><a href="index.php">HarbourSpace</a></li> -->
         <?php
             // don't show any error
             error_reporting(0);
 
         ?>
-      </ul>
+      <!-- </ul> -->
     </nav>
   </header>
 </body>

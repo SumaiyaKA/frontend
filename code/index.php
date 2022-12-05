@@ -1,7 +1,7 @@
 <?php
   
   require_once("nav.php"); 
-  $url = "https://stage.harbour.space/api/v1/scholarship_pages/data-science-apprenticeship-zeptolab";
+  $url = 'https://stage.harbour.space/api/v1/scholarship_pages/data-science-apprenticeship-zeptolab';
 
   $data = array('key1' => 'value1', 'key2' => 'value2');
 
@@ -20,6 +20,9 @@
     }
 
 
+    // var_dump($result);
+
+
   session_start();
   // Don't show any errors 
   error_reporting(0);
@@ -34,13 +37,6 @@
 
 </head>
 <body>
-
-    <div class="menu">
-    <button class="menu-btn">Dropdown</button>
-    <div class="menu-content">
-        <a href="link here">page name</a>
-    </div>
-    </div>
 
   <footer>
       <!-- Footer should be applied to all pages -->
